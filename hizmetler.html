@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hizmetler - YağmurPixels</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <style>
+    .navbar .nav-link {
+      color: #fff;
+    }
+
+    .navbar .nav-link.active,
+    .navbar .nav-link:hover {
+      color: #ff6f61;
+    }
+
+    .filter-btn {
+      color: #333;
+      border-color: #333;
+    }
+
+    
+    .card-img-top {
+      height: 250px;
+      object-fit: cover;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">YağmurPixels</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Ana Sayfa</a></li>
+          <li class="nav-item"><a class="nav-link" href="hakkimizda.html">Hakkımızda</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Hizmetler</a></li>
+          <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+          <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
+          <li class="nav-item"><a class="nav-link" href="sss.html">S.S.S.</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+
+    <h2 class="text-center mb-4">Hizmetlerimiz / Ürünlerimiz</h2>
+
+    
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="ımg/DSC_2568.jpg" class="card-img-top" alt="Dış Çekim" />
+          <div class="card-body">
+            <h5 class="card-title">Dış Mekan Çekimi</h5>
+            <p class="card-text">Doğal ışıkla, açık havada unutulmaz pozlar.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="ımg/fotostudyo.jpg" class="card-img-top" alt="Stüdyo Çekimi" />
+          <div class="card-body">
+            <h5 class="card-title">Stüdyo Çekimi</h5>
+            <p class="card-text">Profesyonel ışıklandırma ve arka plan seçenekleri.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="ımg/fotodron.jpg" class="card-img-top" alt="Drone Çekimi" />
+          <div class="card-body">
+            <h5 class="card-title">Drone Çekimi</h5>
+            <p class="card-text">Gökyüzünden eşsiz ve dinamik görüntüler.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="ımg/albümtasarımı.jpg" class="card-img-top" alt="Albüm Tasarımı" />
+          <div class="card-body">
+            <h5 class="card-title">Özel Albüm Tasarımı</h5>
+            <p class="card-text">Kişiye özel, şık ve dayanıklı albümler.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="ımg/videoçekimi.jpg" class="card-img-top" alt="Video Çekimi" />
+          <div class="card-body">
+            <h5 class="card-title">Video Çekimi</h5>
+            <p class="card-text">Düğün gününüzden hareketli anılar.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="ımg/foto5.jpg" class="card-img-top" alt="Retouch Hizmeti" />
+          <div class="card-body">
+            <h5 class="card-title">Profesyonel Retouch</h5>
+            <p class="card-text">Fotoğraflarınızın en iyi hali için detaylı düzenleme.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <section class="mt-5">
+      <h3 class="mb-4 text-center">Paketlerimiz & Detaylar</h3>
+      <div class="accordion" id="packagesAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#packageOne">
+              Temel Düğün Paketi
+            </button>
+          </h2>
+          <div id="packageOne" class="accordion-collapse collapse" data-bs-parent="#packagesAccordion">
+            <div class="accordion-body">
+              <ul>
+                <li>4 saat dış çekim</li>
+                <li>150+ yüksek çözünürlüklü fotoğraf</li>
+                <li>Temel düzenleme ve retouch</li>
+                <li>Online galeri erişimi</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#packageTwo">
+              Premium Düğün Paketi
+            </button>
+          </h2>
+          <div id="packageTwo" class="accordion-collapse collapse" data-bs-parent="#packagesAccordion">
+            <div class="accordion-body">
+              <ul>
+                <li>8 saat dış + stüdyo çekimi</li>
+                <li>300+ yüksek çözünürlüklü fotoğraf</li>
+                <li>Profesyonel retouch ve video klip</li>
+                <li>Kişiye özel albüm tasarımı</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#packageThree">
+              Deluxe Düğün Paketi
+            </button>
+          </h2>
+          <div id="packageThree" class="accordion-collapse collapse" data-bs-parent="#packagesAccordion">
+            <div class="accordion-body">
+              <ul>
+                <li>Tam gün dış + stüdyo + drone çekimi</li>
+                <li>500+ yüksek çözünürlüklü fotoğraf</li>
+                <li>Profesyonel retouch, video klip & sinema</li>
+                <li>Özel albüm ve dijital kopyalar</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section class="mt-5">
+      <h3 class="mb-4 text-center">Neden YağmurPixels?</h3>
+      <div class="row text-center">
+        <div class="col-md-3 mb-4">
+          <i class="bi bi-camera-fill display-4 text-primary"></i>
+          <h5 class="mt-3">Profesyonel Ekipman</h5>
+          <p>En son teknoloji kamera ve ekipmanlarla çekim yapıyoruz.</p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <i class="bi bi-heart-fill display-4 text-danger"></i>
+          <h5 class="mt-3">Samimi Yaklaşım</h5>
+          <p>Müşterilerimizle güçlü iletişim ve güven kuruyoruz.</p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <i class="bi bi-brush-fill display-4 text-warning"></i>
+          <h5 class="mt-3">Detaylı Düzenleme</h5>
+          <p>Fotoğraflarınızın her detayıyla özenle ilgileniyoruz.</p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <i class="bi bi-clock-fill display-4 text-success"></i>
+          <h5 class="mt-3">Zamanında Teslim</h5>
+          <p>Projelerinizi tam zamanında teslim ediyoruz.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+ 
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p>&copy; 2025 YağmurPixels. Tüm hakları saklıdır.</p>
+      <div>
+        <a href="https://www.instagram.com/yagmur.yardimci" class="text-white me-3">Instagram</a>
+        <a href="https://www.linkedin.com/in/yağmur-yardımcı-688a59329" class="text-white me-3">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
