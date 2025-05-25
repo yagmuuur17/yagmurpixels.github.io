@@ -1,5 +1,5 @@
 # Düğün Fotoğrafçısı Web Sitesi
-Projemiz, kullanıcılara hizmetlerimiz, paketlerimizin içeriğini, neden bizi seçmeleri gerektiğini, daha öncesinde kapılmış olan çekimleri, takımımızı ve bize daha hızlı ulaşım sağlayabilmeleri için tasarlanmıştır.
+Projemiz, kullanıcılara hizmetlerimizi, paketlerimizin içeriğini, neden bizi seçmeleri gerektiğini, daha öncesinde yapılmış olan çekimleri, takımımızı ve bize daha hızlı ulaşım sağlayabilmeleri için tasarlanmıştır.
 # Kullanılan Teknolojiler 
 - HTML
 - CSS
